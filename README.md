@@ -1,7 +1,7 @@
 # BLOG
 
 ![CI](https://github.com/CHRIS123540/GPU)
-![jsDelivr](https://github.com/CHRIS123540/GPU)
+![GIT](https://github.com/CHRIS123540/GPU)
 
 我的github仓库
 

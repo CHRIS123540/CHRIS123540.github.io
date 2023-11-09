@@ -6,8 +6,7 @@
 
 这些是我正在工作的项目，欢迎star和fork！
 
-- ![CI/CD流水线状态](https://github.com/CHRIS123540/GPU/workflows/CI/badge.svg) - [查看CI/CD项目](https://github.com/CHRIS123540/GPU)
-- ![Git版本控制](https://github.com/CHRIS123540/GPU/workflows/GIT/badge.svg) - [查看GIT项目](https://github.com/CHRIS123540/GPU)
+- 👫我在专注的项目 https://github.com/CHRIS123540/GPU
 
 ## 站点介绍
 

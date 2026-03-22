@@ -4,9 +4,9 @@ title: About
 permalink: /about/
 ---
 
-## Lingxiang Hu (胡令翔)
+## Lingxiang Hu (胡凌翔)
 
-I am a researcher at **Tencent**, based in Beijing, China. I graduated from **Northeastern University (东北大学)** in Shenyang.
+I am a researcher at **Tencent**, based in Beijing, China. I obtained both my B.S. and M.S. degrees from **Northeastern University (东北大学)** in Shenyang.
 
 ### Research Interests
 
@@ -25,10 +25,29 @@ Beijing, China
 - Development of advertising analytics benchmarks for LLM agents
 - Work on agentic RAG training methods
 
+**Microsoft** · Research Intern  
+Beijing, China
+
+- Research on LLM agents and meeting intelligence
+- Benchmarking LLMs on attending meetings on our behalf
+
 ### Education
 
-**Northeastern University (东北大学)**  
-Shenyang, China
+<div class="edu-entry" style="margin-bottom: 16px;">
+  <img src="{{ site.baseurl }}/images/neu-logo.png" alt="NEU Logo" class="edu-logo" />
+  <div class="edu-info">
+    <strong>Northeastern University (东北大学)</strong><br/>
+    M.S. · Shenyang, China
+  </div>
+</div>
+
+<div class="edu-entry">
+  <img src="{{ site.baseurl }}/images/neu-logo.png" alt="NEU Logo" class="edu-logo" />
+  <div class="edu-info">
+    <strong>Northeastern University (东北大学)</strong><br/>
+    B.S. · Shenyang, China
+  </div>
+</div>
 
 ### Contact
 

@@ -617,6 +617,45 @@ nav {
 }
 
 //
+// Education Entry with Logo
+//
+
+.edu-entry {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.edu-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: contain;
+  flex-shrink: 0;
+  background: #fff;
+  padding: 2px;
+  border: 1px solid #eee;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.edu-info {
+  h3 {
+    margin: 0;
+    font-size: 17px;
+    color: #2c3e50;
+  }
+
+  p {
+    margin: 2px 0 0;
+  }
+
+  strong {
+    font-size: 16px;
+    color: #2c3e50;
+  }
+}
+
+//
 // Posts (blog, kept for compatibility)
 //
 

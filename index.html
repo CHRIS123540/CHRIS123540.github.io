@@ -2,17 +2,153 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+<div class="hero-section">
+  <div class="hero-content">
+    <div class="hero-avatar">
+      <img src="{{ site.avatar }}" alt="{{ site.name }}" />
+    </div>
+    <div class="hero-text">
+      <h1>Lingxiang Hu (胡令翔)</h1>
+      <p class="hero-title">Researcher</p>
+      <p class="hero-affiliation">
+        <span class="icon">🏢</span> Tencent, Beijing, China
+      </p>
+      <p class="hero-affiliation">
+        <span class="icon">🎓</span> Northeastern University (东北大学), Shenyang
+      </p>
+      <div class="hero-links">
+        <a href="https://github.com/lingxianghu" class="btn btn-outline" target="_blank">
+          <svg viewBox="0 0 16 16" width="16" height="16"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+          GitHub
+        </a>
+        <a href="https://scholar.google.com/citations?user=lingxianghu" class="btn btn-outline" target="_blank">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+          Google Scholar
+        </a>
+        <a href="mailto:lingxianghu@tencent.com" class="btn btn-outline">
+          <svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          Email
+        </a>
       </div>
+    </div>
+  </div>
+</div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+<div class="section">
+  <h2 class="section-title">
+    <span class="section-icon">📖</span> About Me
+  </h2>
+  <div class="section-content">
+    <p>
+      I am a researcher at <strong>Tencent</strong>, Beijing, China. I obtained my degree from <strong>Northeastern University (东北大学)</strong>, Shenyang.
+    </p>
+    <p>
+      My research interests include <strong>Large Language Models (LLMs)</strong>, <strong>AI Agents</strong>, <strong>Retrieval-Augmented Generation (RAG)</strong>, <strong>SmartNIC / Network Systems</strong>, and <strong>Machine Learning for Networking</strong>.
+    </p>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="section-title">
+    <span class="section-icon">🔬</span> Research Interests
+  </h2>
+  <div class="research-tags">
+    <span class="tag">Large Language Models</span>
+    <span class="tag">AI Agents</span>
+    <span class="tag">Retrieval-Augmented Generation</span>
+    <span class="tag">Advertising Analytics</span>
+    <span class="tag">SmartNIC</span>
+    <span class="tag">Traffic Classification</span>
+    <span class="tag">Packet Scheduling</span>
+    <span class="tag">Network Systems</span>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="section-title">
+    <span class="section-icon">📝</span> Selected Publications
+    <a href="{{ site.baseurl }}/publications" class="view-all">View All →</a>
+  </h2>
+  <div class="publications-list">
+
+    <div class="pub-item">
+      <div class="pub-year">2026</div>
+      <div class="pub-content">
+        <h3 class="pub-title">Search-P1: Path-Centric Reward Shaping for Stable and Efficient Agentic RAG Training</h3>
+        <p class="pub-authors">T Xia, M Xu, <strong>L Hu</strong>, Y Sun, W Li, L Shang, L Liu, P Shu, H Yu, J Jiang</p>
+        <p class="pub-venue">arXiv preprint arXiv:2602.22576</p>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-year">2026</div>
+      <div class="pub-content">
+        <h3 class="pub-title">AD-Bench: A Real-World, Trajectory-Aware Advertising Analytics Benchmark for LLM Agents</h3>
+        <p class="pub-authors"><strong>L Hu</strong>, Y Sun, T Xia, W Li, M Xu, L Liu, P Shu, H Yu, J Jiang</p>
+        <p class="pub-venue">arXiv preprint arXiv:2602.14257</p>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-year">2025</div>
+      <div class="pub-content">
+        <h3 class="pub-title">Meeting Delegate: Benchmarking LLMs on Attending Meetings on Our Behalf</h3>
+        <p class="pub-authors"><strong>L Hu</strong>, S Yuan, X Qin, J Zhang, Q Lin, D Zhang, S Rajmohan, Q Zhang</p>
+        <p class="pub-venue">Proceedings of the Fourth Workshop on Bridging Human-Computer Interaction …</p>
+        <span class="pub-citations">Cited by 4</span>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-year">2024</div>
+      <div class="pub-content">
+        <h3 class="pub-title">FlowValve+: Multi-Queue Packet Scheduling Framework on SoC-Based SmartNICs</h3>
+        <p class="pub-authors">S Xi, F Li, <strong>L Hu</strong>, X Wang, K Ren</p>
+        <p class="pub-venue">IEEE Transactions on Services Computing 17 (5), 2444-2458</p>
+        <span class="pub-badge">CCF A</span>
+        <span class="pub-citations">Cited by 4</span>
+      </div>
+    </div>
+
+    <div class="pub-item">
+      <div class="pub-year"></div>
+      <div class="pub-content">
+        <h3 class="pub-title">SmartTC: A Real-Time ML-Based Traffic Classification with SmartNIC</h3>
+        <p class="pub-authors"><strong>L Hu</strong>, C Hei, F Li, C Gao, J Shen, X Wang</p>
+        <span class="pub-badge">CCF B</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="section-title">
+    <span class="section-icon">💼</span> Experience
+  </h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Tencent (腾讯)</h3>
+        <p class="timeline-meta">Researcher · Beijing, China</p>
+        <p>Research on LLM Agents, Advertising Analytics, RAG</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2 class="section-title">
+    <span class="section-icon">🎓</span> Education
+  </h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Northeastern University (东北大学)</h3>
+        <p class="timeline-meta">Shenyang, China</p>
+      </div>
+    </div>
+  </div>
 </div>
